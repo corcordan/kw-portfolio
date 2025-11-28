@@ -13,7 +13,7 @@ const Hero = () => {
             sizes="100vw"
         />
         <div className="absolute h-full left-1/2 transform -translate-x-1/2 w-full flex flex-col justify-between z-10">
-            <div className="flex flex-row justify-between items-center text-2xl font-cormorant mx-8 px-4 pt-4">
+            <div className="flex flex-col md:flex-row justify-between items-center text-xs md:text-2xl font-cormorant mx-0 lg:mx-8 px-2 lg:px-4 pt-4">
                 <Image
                     src={"/4_fix.png"}
                     alt="Logo"
@@ -21,7 +21,7 @@ const Hero = () => {
                     height={50}
                     className="object-cover"
                 />
-                <div className="flex flex-row justify-between w-full mx-20 text-yellow">
+                <div className="flex flex-row justify-between items-center w-full mx-0 lg:mx-20 text-yellow whitespace-nowrap">
                     <NavLink href={"#about"} text={"ABOUT ME"} />
                     <NavLink href={"#skills"} text={"WHAT I DO"} />
                     <NavLink href={"#philosophy"} text={"MY PHILOSOPHY"} />
@@ -32,12 +32,12 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center space-y-4 text-yello px-4 text-yellow">
-                <p className="text-9xl font-alex">Kate Walsh</p>
-                <p className="text-5xl font-garamond">PEOPLE OPERATIONS PROFESSIONAL</p>
+                <p className="text-6xl lg:text-9xl font-alex">Kate Walsh</p>
+                <p className="text-xl lg:text-5xl font-garamond whitespace-nowrap">PEOPLE OPERATIONS PROFESSIONAL</p>
                 <a
                     href="/Kate Walsh - Resume.pdf"
                     download="Kate Walsh Resume"
-                    className="text-3xl font-cormorant border-2 border-yellow rounded-2xl px-16 py-4 mt-4 hover:bg-yellow hover:text-navy transition-colors duration-300"
+                    className="text-lg lg:text-3xl font-cormorant border-2 border-yellow rounded-2xl px-16 py-4 mt-4 hover:bg-yellow hover:text-navy transition-colors duration-300"
                 >
                     RESUME
                 </a>

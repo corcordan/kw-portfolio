@@ -3,11 +3,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div id="about" className="bg-blue text-navy">
-        <div className="h-dvh flex flex-row justify-center items-center">
-            <div className="flex flex-col justify-center items-center px-8 space-y-8">
-                <h1 className="text-9xl font-alex">About Me</h1>
-                <p className="text-5xl font-cormorant text-center">
+    <div id="about" className="min-h-screen bg-blue text-navy flex flex-col justify-center items-center space-y-8 p-8">
+        <div className="flex flex-col lg:flex-row justify-center items-center">
+            <div className="flex flex-col justify-center items-center px-8 space-y-4 lg:space-y-8">
+                <h1 className="text-7xl lg:text-9xl font-alex">About Me</h1>
+                <p className="text-xl lg:text-5xl font-cormorant text-center">
                     Growing up, I was often the friend people turned to when they needed someone to listen. I genuinely loved being that person, and those conversations meade me realize how much our thoughts,
                     feelings, and support systems shape our lives. That curiosity led me to study psychology in my undergraduate studies, with supporing minors in marketing and management.
                 </p>
@@ -15,19 +15,19 @@ const About = () => {
             <Image
                 src="/2.png"
                 alt="Image"
-                width={800}
-                height={800}
+                width={700}
+                height={700}
             />
         </div>
-        <div className="h-dvh flex flex-row justify-center items-center">
+        <div className="flex flex-col lg:flex-row justify-center items-center">
             <Image
                 src="/3.png"
                 alt="Image"
                 width={700}
                 height={700}
-                className=""
+                className="order-2 lg:order1"
             />
-            <div className="flex flex-col text-5xl font-cormorant text-center space-y-8">
+            <div className="flex flex-col text-xl lg:text-5xl font-cormorant text-center space-y-4 lg:space-y-8 px-4 order-1 lg:order-2">
                 <p>
                     I've always been curious about what makes people feel supported, motivated, and connected at work, especially since so much of life is spent there. Studying psychology pulled me into understanding
                     how people perform, collaborate, and find meaning day to day, and I quickly saw how important clarity, structure, and support really are.
