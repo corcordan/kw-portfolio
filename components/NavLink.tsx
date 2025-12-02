@@ -13,7 +13,7 @@ const NavLink = ({ href, text }: NavLinkProps) => {
 
 	return (
 		<div 
-			className="relative h-fit w-fit text-yellow cursor-pointer"
+			className="relative h-fit w-fit text-yellow cursor-pointer m-2"
 			onMouseEnter={() => setOpen(true)}
 			onMouseLeave={() => setOpen(false)}
 		>

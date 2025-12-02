@@ -4,8 +4,8 @@ import React from 'react'
 const Philosophy = () => {
   return (
     <div id="philosophy" className="h-dvh bg-blue relative z-10 p-8">
-        <p className="text-navy font-alex text-7xl lg:text-9xl text-center mt-8 z-0">My Philosophy</p>
-        <div className="absolute w-100 lg:w-300 h-200 -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <p className="text-navy font-alex text-7xl lg:text-9xl text-center mt-4 z-0">My Philosophy</p>
+        <div className="absolute w-100 lg:w-250 h-200 -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <Image
             src="/5.png"
             alt="Paper"
@@ -23,7 +23,7 @@ const Philosophy = () => {
             <Image 
               src="/8.png"
               alt="Birds"
-              width={600}
+              width={400}
               height={100}
               className="my-0 lg:my-6"
             />

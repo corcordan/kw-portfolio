@@ -13,7 +13,7 @@ const Hero = () => {
             sizes="100vw"
         />
         <div className="absolute h-full left-1/2 transform -translate-x-1/2 w-full flex flex-col justify-between z-10">
-            <div className="flex flex-col md:flex-row justify-between items-center text-xs md:text-2xl font-cormorant mx-0 lg:mx-8 px-2 lg:px-4 pt-4">
+            <div className="flex flex-col xl:flex-row justify-between items-center text-sm sm:text-lg md:text-2xl font-cormorant mx-0 lg:mx-8 px-2 lg:px-4 pt-4 space-y-4 md:space-y-0">
                 <Image
                     src={"/4_fix.png"}
                     alt="Logo"
@@ -21,7 +21,14 @@ const Hero = () => {
                     height={50}
                     className="object-cover"
                 />
-                <div className="flex flex-row justify-between items-center w-full mx-0 lg:mx-20 text-yellow whitespace-nowrap">
+                <div className="
+                    flex flex-row flex-wrap justify-center lg:justify-between 
+                    items-center 
+                    space-x-4 xl:space-x-8 
+                    w-full mx-0 lg:mx-20 
+                    text-yellow whitespace-nowrap
+                    max-w-[250px] sm:max-w-none
+                ">
                     <NavLink href={"#about"} text={"ABOUT ME"} />
                     <NavLink href={"#skills"} text={"WHAT I DO"} />
                     <NavLink href={"#philosophy"} text={"MY PHILOSOPHY"} />

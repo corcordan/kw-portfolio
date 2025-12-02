@@ -17,7 +17,7 @@ const Skills = () => {
 				/>
 			</div>
 		</div>
-		<div className="flex flex-col lg:flex-row font-cormorant items-center mx-4 lg:mx-16 space-y-4 lg:space-y-0">
+		<div className="flex flex-col lg:flex-row font-cormorant items-start mx-4 lg:mx-16 space-y-4 lg:space-y-0">
 			<div className="flex flex-col text-center w-full lg:w-1/2 lg:mr-40">
 				<p className="text-3xl lg:text-6xl font-bold">Systems, Structure & Operational Foundations</p>
 				<p className="text-xl lg:text-5xl">
@@ -33,7 +33,7 @@ const Skills = () => {
 				</p>
 			</div>
 		</div>
-		<div className="flex flex-col lg:flex-row font-cormorant items-center mx-4 lg:mx-16 space-y-4 lg:space-y-0">
+		<div className="flex flex-col lg:flex-row font-cormorant items-start mx-4 lg:mx-16 space-y-4 lg:space-y-0">
 			<div className="flex flex-col text-center w-full lg:w-1/2 lg:mr-40">
 				<p className="text-3xl lg:text-6xl font-bold">Performance, Development & Enablement</p>
 				<p className="text-xl lg:text-5xl">

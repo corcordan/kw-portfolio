@@ -27,7 +27,7 @@ const Connect = () => {
       />
       <div className="h-full flex flex-col justify-between items-center z-10 relative">
         <div className="h-7/8 flex flex-col lg:flex-row justify-around items-center w-full">
-          <div className="text-7xl lg:text-9xl font-bold font-alex flex flex-row lg:flex-col space-x-4 lg:space-x-0">
+          <div className="text-7xl lg:text-9xl font-bold font-alex flex flex-row lg:flex-col space-x-4 lg:space-x-0 scale-150">
             <p>Let's</p>
             <p>talk!</p>
           </div>
