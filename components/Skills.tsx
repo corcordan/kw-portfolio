@@ -21,15 +21,15 @@ const Skills = () => {
 			<div className="flex flex-col text-center w-full lg:w-1/2 lg:mr-40">
 				<p className="text-3xl lg:text-6xl font-bold">Systems, Structure & Operational Foundations</p>
 				<p className="text-xl lg:text-5xl">
-					I build people-first programs that make work feel meaningful, connected, and engaging. From onboarding to recognition to culture design,
-					I ensure employees feel supported from day one.
+					I build people-first programs that make work feel meaningful, connected, and engaging. From onboarding through recognition and culture design,
+					I focus on ensuring employees feel supported from day one.
 				</p>
 			</div>
 			<div className="flex flex-col text-center w-full lg:w-1/2 lg:pl-8">
 				<p className="text-3xl lg:text-6xl font-bold">People Experience & Culture</p>
 				<p className="text-xl lg:text-5xl">
-					I create the processes, frameworks, and workflows that bring clarity, consistency, and accountabiliity to fast-moving teams. Review cycles, policies, SOPs,
-					compensation strucutres, and everything that keeps a company running smoothly.
+					I create the processes, frameworks, and workflows that bring clarity, consistency, and accountability to fast-moving teams. Review cycles, policies, SOPs,
+					compensation structures, and everything that keeps a company running smoothly.
 				</p>
 			</div>
 		</div>

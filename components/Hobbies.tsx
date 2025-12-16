@@ -14,7 +14,7 @@ const Hobbies = () => {
         </div>
         <div className="w-full lg:w-1/3 flex flex-col justify-center items-center text-center order-1 lg:order-2 space-y-4 lg:space-y-0">
           <p className="order-2 lg:order-1">
-            Travel is a big part of my life. I love exploring different cultures, learning new perspectives, and seeing how poeple live in places far from my own.
+            Travel is a big part of my life. I love exploring different cultures, learning new perspectives, and seeing how people live in places far from my own.
             It keeps me curious, open-minded, and inspired.
           </p>
           <p className="text-7xl lg:text-9xl font-alex pt-4 order-1 lg:order-2">Hobbies</p>

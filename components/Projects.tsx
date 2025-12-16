@@ -31,7 +31,7 @@ const Projects = () => {
 			<div className="flex flex-col justify-center items-center space-y-4 lg:space-y-8 px-4 lg:px-16">
 				<p className="text-4xl lg:text-7xl font-bold">Quarterly Performance Review System</p>
 				<p>
-					Built a complete performance management framework, including self-assessment, manager rewviews, KPI alignment, SMART goals, timelines, training, and automated workflows, ensuring clarity,
+					Built a complete performance management framework, including self-assessment, manager reviews, KPI alignment, SMART goals, timelines, training, and automated workflows, ensuring clarity,
 					accountability, and growth across all departments.
 				</p>
 			</div>
