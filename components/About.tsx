@@ -8,8 +8,9 @@ const About = () => {
             <div className="flex flex-col justify-center items-center px-8 space-y-4 lg:space-y-8">
                 <h1 className="text-7xl xl:text-8xl 2xl:text-9xl font-alex text-nowrap">About Me</h1>
                 <p className="text-xl lg:text-4xl font-cormorant text-center">
-                    I&apos;ve always been drawn to understanding how people work, from moments of growth to the experiences of everyday life. That curiosity naturally drew me to psychology,
-                    which I pursued in my undergraduate studies alongside minors in marketing and management.
+                    Considering how much of our lives are spent at work, I&apos;ve always believed that the employee 
+                    experience matters. I&apos;ve often wondered why some workplaces bring out the best in people 
+                    while others seem to have the opposite effect.
                 </p>
             </div>
             <Image
@@ -29,12 +30,14 @@ const About = () => {
             />
             <div className="flex flex-col text-xl lg:text-4xl font-cormorant text-center space-y-4 lg:space-y-8 px-4 order-1 xl:order-2">
                 <p>
-                    As my studies progressed, that curiosity became increasingly focused on the workplace. I became especially interested in what makes people feel supported, motivated, and connected at work,
-                    particularly given how much of life is spent there. Through studying psychology, I gained a deeper understanding of how people perform, collaborate, and find meaning day-to-day, and I saw how essential clarity, structure, and support truly are.
+                    That curiosity led me to study psychology, marketing, and management as an undergraduate and eventually pursue a master&apos;s degree 
+                    in Industrial-Organizational Psychology. I enjoy combining the science behind human behavior with practical solutions that enhance the 
+                    employee experience and support organizational success.
                 </p>
                 <p>
-                    That people-focused mindset drives my work today. In my current roles, I design and implement people-focused systems such as onboarding experiences, performance processes, and organizational programs that bring clarity and consistency to how teams operate.
-                    I focus on building structures that help people feel capable, supported, and connected so they can do their best work, which is what ultimately led me to pursue my master&apos;s in industrial-organizational psychology.
+                    Today, I bring that mindset into my work in HR and People Operations. I&apos;m passionate about creating processes and experiences that 
+                    help employees feel supported, connected, and empowered to do their best work while helping organizations achieve their goals. 
+                    To me, the most meaningful work happens when both people and organizations succeed together.
                 </p>
             </div>
         </div>

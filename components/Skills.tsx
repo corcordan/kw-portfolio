@@ -21,15 +21,25 @@ const Skills = () => {
 			<div className="flex flex-col text-center w-full lg:w-1/2 lg:mr-40">
 				<p className="text-3xl lg:text-6xl font-bold">Systems, Structure & Operational Foundations</p>
 				<p className="text-xl lg:text-5xl">
-					I build people-first programs that make work feel meaningful, connected, and engaging. From onboarding through recognition and culture design,
-					I focus on ensuring employees feel supported from day one.
+					I enjoy creating experiences that help
+employees feel supported, connected, and
+set up for success throughout their entire
+journey with an organization. From
+onboarding and development to
+recognition, engagement, and offboarding,
+I strive to create positive and meaningful
+employee experiences at every stage.
 				</p>
 			</div>
 			<div className="flex flex-col text-center w-full lg:w-1/2 lg:pl-8">
 				<p className="text-3xl lg:text-6xl font-bold">People Experience & Culture</p>
 				<p className="text-xl lg:text-5xl">
-					I create the processes, frameworks, and workflows that bring clarity, consistency, and accountability to fast-moving teams. Review cycles, policies, SOPs,
-					compensation structures, and everything that keeps a company running smoothly.
+					Behind every great employee experience is a
+strong operational foundation. I build and
+improve the processes, policies, and
+programs that bring structure, consistency,
+and clarity to organizations, helping both
+employees and businesses succeed.
 				</p>
 			</div>
 		</div>
@@ -37,15 +47,29 @@ const Skills = () => {
 			<div className="flex flex-col text-center w-full lg:w-1/2 lg:mr-40">
 				<p className="text-3xl lg:text-6xl font-bold">Performance, Development & Enablement</p>
 				<p className="text-xl lg:text-5xl">
-					I design the tools and systems that help people grow and perform at their best. This includes performance reviews, goal-setting frameworks,
-					leveling guides, competency models, and manager enablement.
+					I design programs and frameworks that help
+employees grow and perform at their best.
+From performance reviews and goal-setting
+to role leveling, compensation structures, and
+manager support, I enjoy creating systems
+that provide employees with clarity,
+development opportunities, and a path for
+
+growth.
 				</p>
 			</div>
 			<div className="flex flex-col text-center w-full lg:w-1/2 lg:pl-8">
 				<p className="text-3xl lg:text-6xl font-bold">HR Strategy & Compliance</p>
 				<p className="text-xl lg:text-5xl">
-					I manage the day-to-day and long-term People Ops functions that support both the organization and its employees. Policies, state registrations,
-					benefits, onboarding, employee relations, payroll are all handled with clarity and care.
+					I manage the day-to-day and long-term
+People Operations functions that support
+both the organization and its employees.
+Whether it&apos;s onboarding, offboarding,
+payroll, benefits, compliance, or employee
+relations, I believe every employee
+interaction should be handled with clarity
+
+and care.
 				</p>
 			</div>
 		</div>

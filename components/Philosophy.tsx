@@ -19,7 +19,7 @@ const Philosophy = () => {
             px-10
             text-navy text-lg lg:text-6xl font-cormorant font-bold z-10"
           >
-            <p>When people like their work, performance follows.</p>
+            <p>Work should be a win-win for everyone involved.</p>
             <Image 
               src="/8.png"
               alt="Birds"
@@ -27,7 +27,7 @@ const Philosophy = () => {
               height={100}
               className="my-0 lg:my-6"
             />
-            <p>Structure & support ensure excellence is repeatable and scalable.</p>
+            <p>When employees thrive, organizations thrive too.</p>
           </div>
         </div>
     </div>

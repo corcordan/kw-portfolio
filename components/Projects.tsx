@@ -45,7 +45,7 @@ const Projects = () => {
 			<div className="flex flex-col justify-center items-center space-y-4 lg:space-y-8 px-4 lg:px-16">
 				<p className="text-4xl lg:text-7xl font-bold">Compensation & Job Structure Frmework</p>
 				<p>
-					Developed salary bands, leveling guides, role charters, and promotion pathways using market data and organizational strategy.
+					Developed salary bands, leveling guides, and promotion pathways using market data and organizational strategy.
 					This created transparency, fairness, and a scalable foundation for talent decisions.
 				</p>
 			</div>
